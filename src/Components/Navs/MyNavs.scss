@@ -1,0 +1,18 @@
+.navbar{
+    .navbar-brand{
+        color: #b45b35 !important;
+    
+    }
+    .navbar-toggler{
+        background-color: #fff;
+    }
+    form button{
+        background: #fff;
+        outline:  1px solid #b45b35;
+        transition: .3s all ease;
+        &:hover{
+            background: #b45b35;
+            color:#fff
+        }
+    }
+}
