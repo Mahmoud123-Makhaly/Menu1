@@ -5,14 +5,16 @@ import { Header } from './Components/Header/Header'
 import Navs from "./Components/Navs/Navs";
 import { data } from './Data';
 const App = () => {
-  const [itemsData , setItemsData] = useState(data)
+  const [itemsData , setItemsData] = useState(data);
+
+ 
   return (
  <>
-    <Navs/>
+    <Navs  setItemsData={setItemsData}/>
 <div className='container'>
  <Header/>
- <Category/>
- <CardList itemsData={itemsData}/>
+ <Category  setItemsData={setItemsData} />
+ <CardList itemsData={itemsData} />
  
  
 </div>

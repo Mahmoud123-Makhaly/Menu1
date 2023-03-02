@@ -3,7 +3,7 @@ import img2 from "./images/2.png";
 import img3 from "./images/3.png"
 export const data = [
     {
-        id:1,
+        id:Math.random(),
         title:"وجبة فطار ",
         desc:"وصف فطار ",
         price:"50 جنيه",
@@ -12,7 +12,7 @@ export const data = [
 
     },
     {
-        id:2,
+        id:Math.random(),
         title:"وجبة غداء ",
         desc:"وصف غداء ",
         price:"60 جنيه",
@@ -21,7 +21,7 @@ export const data = [
 
     },
     {
-        id:3,
+        id:Math.random(),
         title:"وجبة عشاء ",
         desc:"وصف عشاء ",
         price:"70 جنيه",
@@ -30,16 +30,16 @@ export const data = [
 
     },
     {
-        id:4,
-        title:"وجبة سناكس ",
-        desc:"وصف سناكس ",
+        id:Math.random(),
+        title:"وجبة غداء ",
+        desc:"وصف غداء ",
         price:"80 جنيه",
         category:"غداء",
         url:img1
 
     },
     {
-        id:5,
+        id:Math.random(),
         title:"وجبة فطار ",
         desc:"وصف فطار ",
         price:"100 جنيه",
@@ -48,7 +48,7 @@ export const data = [
 
     },
     {
-        id:6,
+        id:Math.random(),
         title:"وجبة عشاء ",
         desc:"وصف عشاء ",
         price:"120 جنيه",
@@ -56,4 +56,7 @@ export const data = [
         url:img3
 
     },
+    
 ]
+
+ 
